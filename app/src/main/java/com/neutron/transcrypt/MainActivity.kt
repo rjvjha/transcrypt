@@ -100,7 +100,6 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        listOfDummyMessages()
     }
 
     @Composable
@@ -249,22 +248,5 @@ class MainActivity : ComponentActivity() {
                 )
             }
         }
-    }
-
-    // todo : delete later
-    private fun listOfDummyMessages() {
-        val list = mutableListOf(
-            MessageUiState("bhai me 2 min me aa raha hu", false),
-            MessageUiState("theek hai! bhai", true),
-            MessageUiState("bhai me 2 min me aa raha hu", false),
-            MessageUiState("theek hai! bhai", true),
-            MessageUiState("bhai me 2 min me aa raha hu", false),
-            MessageUiState("theek hai! bhai", true),
-            MessageUiState("bhai me 2 min me aa raha hu", false),
-            MessageUiState("theek hai! bhai", true),
-            MessageUiState("bhai me 2 min me aa raha hu", false),
-            MessageUiState("theek hai! bhai", true)
-        )
-//        messagesList.addAll(list)
     }
 }
