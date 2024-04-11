@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Transcrypt</string>
+    <string name="brand_name_title"  translatable="false">transcrypt</string>
+    <string name="input_message">type your message here.</string>
+</resources>
